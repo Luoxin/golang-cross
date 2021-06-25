@@ -1,5 +1,5 @@
-CROSS_IMAGE_NAME   := troian/golang-cross-builder
-IMAGE_NAME         := troian/golang-cross
+CROSS_IMAGE_NAME   := luoxin/golang-cross-builder
+IMAGE_NAME         := luoxin/golang-cross
 GHCR_IMAGE_NAME    ?= ghcr.io/$(IMAGE_NAME)
 GO_VERSION         ?= 1.16.5
 TAG_VERSION        := v$(GO_VERSION)
